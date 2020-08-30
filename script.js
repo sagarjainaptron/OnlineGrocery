@@ -1,7 +1,7 @@
 (function(){
 	const cartBtn=document.querySelectorAll('.store-item-icon');
 	cartBtn.forEach(function(btn){
-		btn.addEventListener('click',function(event){
+		btn.addEventListener('touchstart',function(event){
 			//console.log(event.target);
 
 			if(event.target.parentElement.classList.contains('store-item-icon')){
